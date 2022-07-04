@@ -5,7 +5,7 @@
 # Take path as argument
 import argparse
 import os
-flag_list = ["ajax.googleapis.com","maxcdn.bootstrapcdn.com","policies.google.com","www.gstatic.com"]
+flag_list = ["ajax.googleapis.com","maxcdn.bootstrapcdn.com","policies.google.com","www.gstatic.com","cdn","unkpkg.com"]
 arg=argparse.ArgumentParser()
 arg.add_argument("-t","--target",help="Target domain file list")
 arg.add_argument("-o","--output",help="Output file")
